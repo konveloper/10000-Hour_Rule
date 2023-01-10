@@ -39,7 +39,6 @@ body {
 }
 
 /* 제목과 설명 */
-
 .container-intro {
   display: flex;
   flex-direction: column;
@@ -95,4 +94,127 @@ body {
 .container-desc .bgimg-quotes {
   position: absolute;
   top: 13px;
+}
+
+/* 전문가와 훈련시간 입력폼 */
+.container-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txt-job,
+.txt-time {
+  font-family: 'GmarketSansMedium';
+  color: #fff;
+  line-height: 24px;
+  font-size: 24px;
+  margin-bottom: 27px;
+}
+
+.input-style {
+  width: 228px;
+  height: 57px;
+  border-radius: 7px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.input-style::placeholder {
+  font-family: 'GmarketSansMedium';
+  color: #babcbe;
+  font-size: 24px;
+}
+
+/* 결과 로딩 화면 */
+.container-result-loading {
+  display: none;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.container-result-loading .img-clock {
+  width: 150px;
+}
+
+/* 결과 확인 화면 */
+.container-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-result,
+.time-result {
+  font-family: 'GmarketSansBold';
+  font-size: 72px;
+}
+
+.txt-job,
+.txt-time {
+  margin-bottom: 65px;
+}
+
+.btn-style {
+  font-family: 'GmarketSansBold';
+  font-size: 24px;
+  color: #5b2386;
+  background-color: #fcee21;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+}
+
+/* 버튼 */
+.container-btn {
+  position: relative;
+}
+
+.container-btn .bgimg-click {
+  position: absolute;
+  transform: rotate(-19.08deg);
+  top: 129px;
+}
+
+.btn-start {
+  width: 565px;
+  height: 66px;
+  margin: 88px 0 147px 0;
+}
+
+.btn-go {
+  width: 356px;
+  height: 66px;
+}
+
+.btn-share {
+  width: 191px;
+  height: 66px;
+  background-color: #fff;
+}
+
+/* 회사와 저작권 정보 */
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.container-footer .img-footer {
+  width: 125px;
+  height: 25px;
+}
+
+.container-footer .txt-footer {
+  margin: 20px 0 50px 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* 모달 */
+#modal {
+  display: none;
 }

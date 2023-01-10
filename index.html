@@ -45,6 +45,7 @@
         <p class="txt-job">
           나는
           <input
+            class="input-style"
             id="input-job"
             type="text"
             placeholder="예) 프로그래밍"
@@ -54,13 +55,21 @@
         </p>
         <p class="txt-time">
           그래서 앞으로 매일 하루에
-          <input id="input-time" type="number" placeholder="예) 5" required />
+          <input
+            class="input-style"
+            id="input-time"
+            type="number"
+            placeholder="예) 5"
+            required
+          />
           시간씩 훈련할 것이다.
         </p>
-        <button class="btn-start" type="button">
-          나는 며칠 동안 훈련을 해야 1만 시간이 될까?
-        </button>
-        <img src="./img/click.png" alt="" />
+        <div class="container-btn">
+          <button class="btn-style btn-start" type="button">
+            나는 며칠 동안 훈련을 해야 1만 시간이 될까?
+          </button>
+          <img class="bgimg-click" src="./img/click.png" alt="" />
+        </div>
       </section>
       <!-- // 전문가와 훈련시간 입력폼 -->
 
@@ -84,10 +93,26 @@
           <span class="time-result">5110</span>
           일 이상 훈련하셔야 합니다! :)
         </p>
-        <button class="btn-go" type="button">훈련하러 가기 GO!GO!</button>
-        <button class="btn-share" type="button">공유하기</button>
+        <div class="btns">
+          <button class="btn-style btn-go" type="button">
+            훈련하러 가기 GO!GO!
+          </button>
+          <button class="btn-style btn-share" type="button">공유하기</button>
+        </div>
       </section>
       <!-- // 결과 확인 화면 -->
+
+      <!-- 모달 -->
+      <section id="modal">
+        <h2 class="ir">응원 화면 모달</h2>
+        <p class="modal-title">화이팅!!♥♥♥</p>
+        <p class="modal-txt">당신의 꿈을 응원합니다!</p>
+        <img class="img-licat" src="./img/licat.png" alt="응원하는 라이캣" />
+        <button class="btn-style btn-close" type="button">
+          종료하고 진짜 훈련하러 가기 GO!GO!
+        </button>
+      </section>
+      <!-- // 모달 -->
 
       <!-- 회사와 저작권 정보 -->
       <footer class="container-footer">
@@ -102,17 +127,6 @@
     </main>
     <!-- // 메인 -->
 
-    <!-- 모달 -->
-    <section id="modal">
-      <h2 class="ir">응원 화면 모달</h2>
-      <p class="modal-title">화이팅!!♥♥♥</p>
-      <p class="modal-txt">당신의 꿈을 응원합니다!</p>
-      <img class="img-licat" src="./img/licat.png" alt="응원하는 라이캣" />
-      <button class="btn-close" type="button">
-        종료하고 진짜 훈련하러 가기 GO!GO!
-      </button>
-    </section>
-    <!-- // 모달 -->
     <script src="./js/main.js"></script>
   </body>
 </html>
