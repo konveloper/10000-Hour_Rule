@@ -146,10 +146,6 @@ body {
   top: 30px;
 }
 
-.container-input-btn .btn-start {
-  width: 565px;
-}
-
 /* 결과 로딩 화면 */
 .container-result-loading {
   display: none;
@@ -185,15 +181,6 @@ body {
 .txt-job,
 .txt-time {
   margin-bottom: 65px;
-}
-
-.btn-go {
-  width: 356px;
-}
-
-.btn-share {
-  width: 191px;
-  background-color: #fff;
 }
 
 /* 회사와 저작권 정보 */
@@ -276,4 +263,18 @@ body {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 56px;
   height: 66px;
+}
+
+.btn-start {
+  width: 565px;
+}
+
+.btn-go {
+  width: 356px;
+}
+
+.btn-share {
+  width: 191px;
+  margin-left: 20px;
+  background-color: #fff;
 }
