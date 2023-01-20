@@ -38,9 +38,20 @@ function calculator() {
   }, 1800);
 }
 
-function openModal() {}
+function openModal() {
+  modal.style.display = 'flex';
+}
 
-function closeModal() {}
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+// 화면을 클릭했을 때 모달 닫히기
+window.onclick = function (event) {
+  if (event.target == modal) {
+    closeModal();
+  }
+};
 
 function copyUrl() {}
 
