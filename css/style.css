@@ -153,9 +153,8 @@ body {
 /* 결과 로딩 화면 */
 .container-result-loading {
   display: none;
-  /* display: flex;
   justify-content: center;
-  margin-top: 60px; */
+  margin-top: 60px;
 }
 
 .container-img-clock {
@@ -171,14 +170,14 @@ body {
 
 /* 결과 확인 화면 */
 .container-result {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   margin-top: 147px;
 }
 
-.job-result,
-.time-result {
+.result-job,
+.result-time {
   font-family: 'GmarketSansBold';
   font-size: 72px;
 }
@@ -221,7 +220,6 @@ body {
 /* 모달 */
 #modal {
   display: none;
-  /* display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -229,7 +227,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; */
+  height: 100%;
 }
 
 .container-modal {
