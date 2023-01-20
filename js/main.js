@@ -53,7 +53,10 @@ window.onclick = function (event) {
   }
 };
 
-function copyUrl() {}
+function copyUrl() {
+  navigator.clipboard.writeText(window.location.href);
+  alert('URL이 복사되었습니다.');
+}
 
 startBtn.addEventListener('click', calculator);
 goBtn.addEventListener('click', openModal);
