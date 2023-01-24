@@ -116,8 +116,8 @@ body {
 .txt-time {
   font-family: 'GmarketSansMedium';
   color: #fff;
+  font-size: 1.5rem;
   line-height: 24px;
-  font-size: 24px;
   margin-bottom: 27px;
 }
 
@@ -132,7 +132,7 @@ body {
 .input-style::placeholder {
   font-family: 'GmarketSansMedium';
   color: #babcbe;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .container-input-btn {
@@ -175,7 +175,7 @@ body {
 .result-job,
 .result-time {
   font-family: 'GmarketSansBold';
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 .txt-job,
@@ -199,7 +199,7 @@ body {
 .container-footer .txt-footer {
   margin: 20px 0 50px 0;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 18px;
   text-align: center;
 }
@@ -236,11 +236,11 @@ body {
 
 .modal-title {
   margin-top: 50px;
-  font-size: 96px;
+  font-size: 6rem;
 }
 
 .modal-txt {
-  font-size: 36px;
+  font-size: 2.25px;
 }
 
 .img-licat {
@@ -257,7 +257,7 @@ body {
 /* 버튼 공통 스타일 */
 .btn-style {
   font-family: 'GmarketSansBold';
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #5b2386;
   background-color: #fcee21;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
