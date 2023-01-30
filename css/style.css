@@ -45,6 +45,7 @@
 
 body {
   background-color: #5b2386;
+  font-size: 16px;
 }
 
 /* 제목과 설명 */
@@ -90,7 +91,8 @@ body {
 .container-desc .txt-desc {
   font-family: 'GmarketSansMedium';
   color: #fff;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -98,10 +100,12 @@ body {
 .txt-desc > strong {
   font-family: 'GmarketSansBold';
   color: #fff;
+  font-size: 1.25rem;
 }
 
 .container-desc .bgimg-quotes {
   position: absolute;
+  width: 486px;
   top: 13px;
 }
 
@@ -112,12 +116,10 @@ body {
   align-items: center;
 }
 
-.txt-job,
-.txt-time {
+.input-txt-style {
   font-family: 'GmarketSansMedium';
   color: #fff;
   font-size: 1.5rem;
-  line-height: 24px;
   margin-bottom: 27px;
 }
 
@@ -178,8 +180,7 @@ body {
   font-size: 4.5rem;
 }
 
-.txt-job,
-.txt-time {
+.input-txt-style {
   margin-bottom: 65px;
 }
 
@@ -240,7 +241,7 @@ body {
 }
 
 .modal-txt {
-  font-size: 2.25px;
+  font-size: 2.25rem;
 }
 
 .img-licat {
@@ -277,4 +278,95 @@ body {
   width: 191px;
   margin-left: 20px;
   background-color: #fff;
+}
+
+/* 모바일 */
+@media all and (min-width: 360px) and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
+  .container-intro .container-title {
+    height: 180px;
+  }
+
+  .container-title .img-title {
+    width: 430px;
+    top: 25%;
+  }
+
+  .container-title .bgimg-clock {
+    width: 180px;
+  }
+
+  .img-intro-txt {
+    width: 440px;
+    margin: 40px 0 40px 0;
+  }
+
+  .container-desc .bgimg-quotes {
+    width: 430px;
+  }
+
+  .container-desc .txt-desc {
+    margin-bottom: 62px;
+  }
+
+  .container-desc .txt-desc > strong {
+    font-size: 1rem;
+  }
+
+  .input-txt-style {
+    font-size: 1rem;
+    margin-bottom: 27px;
+  }
+
+  .input-txt-style .mobile-txt-block {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .input-style {
+    width: 156px;
+    height: 37px;
+  }
+  .input-style::placeholder {
+    font-size: 1rem;
+  }
+
+  .container-result {
+    margin-top: 64px;
+  }
+
+  .result-job,
+  .result-time {
+    font-size: 1.5rem;
+  }
+
+  .btn-style {
+    font-size: 1rem;
+    width: fit-content;
+    height: 40px;
+    padding: 0 17px 0 17px;
+  }
+
+  .container-footer {
+    margin-top: 83px;
+  }
+
+  .container-modal {
+    width: 400px;
+    height: 500px;
+  }
+
+  .modal-title {
+    margin-top: 50px;
+    font-size: 4rem;
+  }
+
+  .img-licat {
+    width: 250px;
+    height: 200px;
+  }
 }
