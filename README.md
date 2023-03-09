@@ -1,8 +1,7 @@
-# ⏰ 1만 시간의 법칙 ⏰
+# 💡 1만 시간의 법칙 (Vanila JavaScript )💡
 🔗 [구현 페이지](https://konveloper.github.io/10000-Hour_Rule/index.html) <br>
 * '1만 시간의 법칙'이란 어떤 분야의 전문가가 되려면 최소한 1만 시간의 훈련이 필요하다는 법칙입니다.
-* 매일 얼마나 훈련해야 1만 시간을 달성할 수 있는지 일수를 계산해주는 웹 페이지입니다.
-## 기능 구현
+* 매일 얼마나 훈련해야 1만 시간을 달성할 수 있는지 일수를 계산해주는 웹 페이지입니다. <br><br>
 ![screencapture-127-0-0-1-5500-index-html-2023-01-21-00_13_46](https://user-images.githubusercontent.com/109451148/213733131-477fa0cf-5516-4e37-bac1-fa2f303285c3.png)
 ## 기능 설명
 * 시간 계산 기능
